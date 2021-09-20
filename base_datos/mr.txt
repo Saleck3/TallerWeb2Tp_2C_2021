@@ -1,0 +1,11 @@
+usuarios(*id_usuario, nombre, mail, password, rol)
+cervezas(*id_cerveza, marca, sabor)
+cervecerias(id_cerveceria, nombre, ubicacion)
+venta(*#id_cerveceria, *#id_cerveza)
+feedback(id_feedback, #id_cerveceria, pun_cerveceria, comentario)
+feed_cerveza(*#id_feedback, *#id_cerveceria, pun_cerveza)
+
+*PK
+#FK
+
+DER Editable: https://docs.google.com/drawings/d/1lWWPQcaqNU0jRRkEp_M1TI_RRbMXJRpCgZlNAiJTvXg/edit?usp=sharing
