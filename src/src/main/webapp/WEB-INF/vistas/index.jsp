@@ -1,1 +1,1 @@
-<!-- Este es el home, te tiene que redirigir a la vista de feedback o al logueo-->
+<!-- Este es el home, te tiene que redirigir a la vista de Feedback o al logueo-->
