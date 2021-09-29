@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Objects;
 
 public class Feedback {
-
+    private Cerveceria cerveceria;
     private Integer id;
     private Integer puntuacionCerveceria; //minimo 1 maximo 5
     private String comentario;
